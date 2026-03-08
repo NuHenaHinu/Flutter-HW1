@@ -1,6 +1,7 @@
-# my_untitled_app
+# pong
 
 A new Flutter project.
+A simple pong game with a bit of adjustment.
 
 ## Getting Started
 
