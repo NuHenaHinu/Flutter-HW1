@@ -19,8 +19,8 @@ class Ball {
     vy = speed * sin(angle);
   }
 
-  void update(double dt, [double multiplier = 1.0]) {
-    x += vx * dt * multiplier;
-    y += vy * dt * multiplier;
+  void update(double dt) {
+    x += vx * dt;
+    y += vy * dt;
   }
 }

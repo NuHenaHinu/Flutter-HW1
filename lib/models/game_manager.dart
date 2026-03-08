@@ -4,6 +4,10 @@ class GameManager {
 
   int playerScore = 0;
   int aiScore = 0;
+  // current game difficulty
+  Difficulty currentDifficulty = Difficulty.noob;
+
+  void setDifficulty(Difficulty d) => currentDifficulty = d;
 
   void resetScores() {
     playerScore = 0;
@@ -12,3 +16,5 @@ class GameManager {
 }
 
 const int kWinningScore = 5;
+
+enum Difficulty { noob, notNoob, pro }
